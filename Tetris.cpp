@@ -432,7 +432,7 @@ void setTetris()
         //check if game over
         if (!isvalid(unitPosition))
         {
-            restart();
+	    restart();
             return;
         }
         fillTheUnit(unitPosition, tetrisColors[type]);
